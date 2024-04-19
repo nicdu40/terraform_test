@@ -11,7 +11,7 @@ variable "sg_ports" {
 
 resource "azurerm_network_security_group" "mynsg" {
   name                = "mynsg"
-  location            = var.region 
+  location            = var.region
   resource_group_name = azurerm_resource_group.myrg.name
 
   dynamic "security_rule" {
