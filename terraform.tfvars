@@ -1,0 +1,6 @@
+vm_size = "Standard_D1_v2"
+https_port = "443"
+http_port = "80"
+ssh_port = "22"
+admin_password = "98Pasw0rd1234!"
+admin_username = "adminuser"
